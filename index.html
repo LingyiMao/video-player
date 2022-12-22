@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <button id="home-button" class="header-button">Home</button>
+      <button id="about-button" class="header-button">About</button>
+    </header>
+    <main class="homepage hidden">
+      <div class="search-section">
+        <div class="search-section__input">
+          <input type="text" id="search-input"/>
+          <button id="search-button">Search</button>
+        </div>
+        <ul class="search-section__keywords">
+        </ul>
+      </div>
+      <div class="video-thumbnails"></div>
+      <div class="modal hidden"></div>
+    </main>
+    <main class="aboutpage">
+        <h1>About this App</h1>
+        <p>This is a small video player website contains some cooking tutorial videos. <br>The users can filter the videos by searching the keywords or categories.</p>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+{
+    "video": [
+        {
+            "id": "FzzUVvGBTO8",
+            "title": "8 Must-Try Homemade Baked Goods Tasty",
+            "categoryID": 1,
+            "duration": 7.45,
+            "tag": ["baking", "tasty", "recipes"]
+        },
+
+        {
+            "id": "V5YqfJSjYXE",
+            "title": "No Bake Cheesecake",
+            "categoryID": 1,
+            "duration": 8.31,
+            "tag": ["baking", "recipes", "cake"]
+        },
+        
+        {
+            "id": "uJwekkbGPns",
+            "title": "Professional Baker Teaches You How To Make CHOCOLATE CHIP COOKIES!",
+            "categoryID": 1,
+            "duration": 5.21,
+            "tag": ["baking", "recipes", "cookie"]
+
+        },
+        
+        {
+            "id": "UIOW18kRDEA",
+            "title": "These 15 Minute Dinners Will Change Your Life",
+            "categoryID": 2,
+            "duration": 15.31,
+            "tag": ["cooking", "recipes", "dinner"]
+
+        },
+
+        {
+            "id": "MW8l4o5sHlE",
+            "title": "These 15 Minute Pastas Will Change Your Dinners Forever!",
+            "categoryID": 2,
+            "duration": 19.16,
+            "tag": ["cooking", "pasta", "pasta"]
+        },
+
+        {
+            "id": "bI2u5v9RVd4",
+            "title": "Cooking Short Rib For 72 Hours Straight",
+            "categoryID": 2,
+            "duration": 10.52,
+            "tag": ["cooking", "short ribs"]
+        },
+
+        {
+            "id": "IjQyUjaJWOk",
+            "title": "39 Awesome Kitchen Tips and Tricks | Thaitrick",
+            "categoryID": 3,
+            "duration": 11.28,
+            "tag": ["kitchen tips", "make life easier", "awesome"]
+        },
+        
+        {
+            "id": "Lw8OYRWHa6o",
+            "title": "Useful Kitchen Tricks To Help You Avoid Cooking Fails",
+            "categoryID": 3,
+            "duration": 15.02,
+            "tag": ["kitchen tips", "make cooking easier", "useful"]
+
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Baking"
+        },
+        {
+            "id": 2,
+            "name": "Cooking"
+        },
+        {
+            "id": 3,
+            "name": "Kitchen tips"
+        }
+    ]
+}

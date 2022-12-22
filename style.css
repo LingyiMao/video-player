@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 50px;
+  width: 100vw;
+  background-color: #FFA400;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-button {
+  font-size: large;
+  width: 1000px;
+  border: none;
+  background-color: #FFA400;
+  cursor: pointer;
+}
+.header-button:hover {
+  background-color: #40798C;
+  color: wheat;
+}
+
+.search-section {
+  text-align: center;
+  padding: 2em 0 0 0;
+}
+.search-section__input input {
+  padding: 5px;
+  width: 300px;
+  border: 2px solid #40798C;
+  border-radius: 10px;
+}
+.search-section__input button {
+  cursor: pointer;
+  padding: 8px;
+  width: 100px;
+  border: 0;
+  border-radius: 10px;
+  color: wheat;
+  background-color: #40798C;
+}
+.search-section__input button:hover {
+  background-color: #FFA400;
+  color: black;
+}
+.search-section__keywords {
+  padding: 0;
+  list-style-type: none;
+  display: inline-flex;
+}
+.search-section__keywords li {
+  cursor: pointer;
+  padding: 0.5em 4em 0 0;
+  color: dimgray;
+}
+.search-section__keywords li:hover {
+  color: #FFA400;
+}
+
+.video-thumbnails {
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.thumbnail {
+  width: 380px;
+  padding: 1em;
+  text-align: center;
+  cursor: pointer;
+}
+.thumbnail:hover {
+  color: #FFA400;
+}
+.thumbnail-image {
+  width: 350px;
+  border-radius: 10px;
+}
+.thumbnail-image:hover {
+  opacity: 0.5;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hidden {
+  display: none;
+}
+
+.aboutpage {
+  text-align: center;
+}
+.aboutpage h1 {
+  padding: 1rem;
+}
+.aboutpage p {
+  padding: 2rem;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
